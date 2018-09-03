@@ -40,7 +40,7 @@
 	* [什么是Gala](#什么是gala)
 	* [计算可提取的Gala总量](#计算可提取的gala总量)
 	* [给用户分发Gala](#给用户分发gala)
-	* [Gala分配方案](#Gala分配方案)
+	* [Gala分配公式](#Gala分配公式)
 	* [用户提现Gala](#用户提现gala)  
 	
 * [5. 附 native 合约地址](#附-native-合约地址)
@@ -592,7 +592,7 @@ BalanceOf:ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz
 ```
 
 
-### Gala分配方案
+### Gala分配公式
 
 假设交易所每日凌晨0点进行分发Gala清算，根据用户昨日0点持仓快照，计算得出未调整前用户当日应分发的Gala总量 *Gala_Unbound*，扣除或加上当日客户交易和冲提币等操作造成的持仓变动影响的总量 *Gala_Adj*。
 
