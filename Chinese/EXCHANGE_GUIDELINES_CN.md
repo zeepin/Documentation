@@ -604,7 +604,7 @@ BalanceOf:ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz
 应该分配Gala数量为:
 
 
-				Gala_D = Gala_Unbound + Sum(Gala_Adj_1 , Gala_Adj_N)
+				Gala_D = Gala_Unbound + Sum(Gala_Adj_1 , Gala_Adj_2 ... Gala_Adj_n)
 
 
 ### 用户提现Gala
@@ -631,15 +631,15 @@ Tip:
 
 ## 附 native 合约地址
 
-合约名称 | 合约地址 | Address
----|---|---
-ZPT Token | 0100000000000000000000000000000000000000| Zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Gala Token | 0200000000000000000000000000000000000000 | Zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Zeepin Network GID(Galaxy ID) | 0300000000000000000000000000000000000000 | Zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Global Environment | 0400000000000000000000000000000000000000 | Zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Oracle Machine | 0500000000000000000000000000000000000000 | Zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Authorization Contract | 0600000000000000000000000000000000000000 | Zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-Governance(Consensus) | 0700000000000000000000000000000000000000 | Zxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+合约名称 | 合约地址 
+---|---
+ZPT Token | 0100000000000000000000000000000000000000
+Gala Token | 0200000000000000000000000000000000000000 
+Zeepin Network GID(Galaxy ID) | 0300000000000000000000000000000000000000 
+Global Environment | 0400000000000000000000000000000000000000  
+Oracle Machine | 0500000000000000000000000000000000000000 
+Authorization Contract | 0600000000000000000000000000000000000000 
+Governance(Consensus) | 0700000000000000000000000000000000000000 
 
 
 
