@@ -590,7 +590,19 @@ BalanceOf:ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz
   GALA:10143405.6129
 ```
 
+### Gala分配方案
 
+假设交易所每日凌晨0点进行分发Gala清算，根据用户昨日0点持仓快照，计算得出未调整前用户当日应分发的Gala总量 *Gala_Unbound*，扣除或加上当日客户交易和冲提币等操作造成的持仓变动影响的总量 *Gala_Adj*。
+
+根据客户交易和冲提币流水记录计算，根据记录发生时间距清算时间的时间跨度（以秒为单位）Delta、发生交易的ZPT数量Amount和该时间段内的分配系数Beta，计算该比交易流水造成的Gala分配调整额度，期间交易为卖出或转出则扣除这部分Gala，期间交易为买人或转入则加上这部分Gala：
+
+				Gala_Adj =（±）delta * Amount * Beta
+                
+               
+应该分配Gala数量为:
+
+
+				Gala_D = Gala_Unbound + Sum(Gala_Adj_1 , Gala_Adj_N)
 
 
 ### 用户提现Gala
