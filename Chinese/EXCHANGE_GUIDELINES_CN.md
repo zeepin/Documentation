@@ -40,7 +40,7 @@
 	* [什么是Gala](#什么是gala)
 	* [计算可提取的Gala总量](#计算可提取的gala总量)
 	* [给用户分发Gala](#给用户分发gala)
-	* [Gala分配公式](#Gala分配公式)
+	* [Gala分配公式](#gala分配公式)
 	* [用户提现Gala](#用户提现gala)  
 	
 * [5. 附 native 合约地址](#附-native-合约地址)
