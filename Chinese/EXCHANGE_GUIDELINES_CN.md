@@ -664,7 +664,7 @@ Governance(Consensus) | 0700000000000000000000000000000000000000
   为了保障交易所数据安全，避免恶意节点干扰，可以采用指定peers白名单的方式运行节点，peer.rsv内容格式和peers.recent一致，启动方式如下：
 
    ```
-	./zeepin --reservedfile=./peers.rsv --reservedonly
+	./zeepin  --reservedonly --reservedfile=./peers.rsv
    ```  
    如有需要，可向官方联系获得白名单节点地址  
      
