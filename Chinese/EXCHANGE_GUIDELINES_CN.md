@@ -1,7 +1,7 @@
 <h1 align="center">EXCHANGE_GUIDELINES_CN</h1>
 <h4 align="center">Version 1.0 </h4>
 
-[English](EXCHANGE_GUIDELINES.md) | [中文](EXCHANGE_GUIDELINES_CN.md) | [한글](EXCHANGE_GUIDELINES_KO.md)
+[English](EXCHANGE_GUIDELINES_EN.md) | [中文](EXCHANGE_GUIDELINES_CN.md) | [한글](EXCHANGE_GUIDELINES_KO.md)
 
 
 **ZEEPIN区块链资产分为：**
@@ -394,11 +394,12 @@ Signature scheme: SHA256withECDSA
 
 当用户提现时，交易所需要完成以下操作：
 
-1、 数据库中记录用户提现，修改用户账户余额。
-2、 使用CLI命令对用户提现地址进行转账：
+#### 1、 数据库中记录用户提现，修改用户账户余额。 
+
+#### 2、 使用CLI命令对用户提现地址进行转账：
 
    ```
-	   $ ./zeepin asset transfer --asset gala --from ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz --to ZTSPC1PEhXHZZDTFtvRDjoKSZrgYboBwDM --amount 100
+	$ ./zeepin asset transfer --asset gala --from ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz --to ZTSPC1PEhXHZZDTFtvRDjoKSZrgYboBwDM --amount 100
 	Password:
 	Transfer GALA
 	  From:ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz
@@ -449,8 +450,9 @@ Signature scheme: SHA256withECDSA
    确认交易结果：
 
    - 使用返回的交易hash直接查询并过滤交易所地址向用户转账的记录：
+   
 
-     ```
+   ```
 	$ ./zeepin info status 00d9336a5e83754815fdd609f7ecce31135428d4fcc40469082658cfdb8b62c4
 	Transaction states:
 	{
@@ -479,16 +481,16 @@ Signature scheme: SHA256withECDSA
 	   ]
 	}
 
-     ```
+   ```
 
 
-3. 从返回的 Json 格式交易详情中提取交易ID记录在数据库中
+#### 3. 从返回的 Json 格式交易详情中提取交易ID记录在数据库中
 
-4. 等待区块确认后将提现记录标志为提现成功
+#### 4. 等待区块确认后将提现记录标志为提现成功
 
    类似充值时对区块链的监控，提现也一样，监控时若发现区块中的某个交易 ID 与提现记录中的交易 ID 相等，则该交易已经确认，即提现成功。
 
-5. 如果交易始终没有得到确认，即通过交易hash查询不到对应的event log,则需要
+#### 5. 如果交易始终没有得到确认，即通过交易hash查询不到对应的event log,则需要
 
    - 通过rpc/SDK接口查询交易是否在交易池中（参照Java Sdk）若在，需要等待共识节点打包出块后再查询
 
