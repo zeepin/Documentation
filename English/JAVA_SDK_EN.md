@@ -1,33 +1,32 @@
 <h1 align="center">JAVA_SDK_EN</h1>
 <h4 align="center">Version 1.0 </h4>
 
+[English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/JAVA_SDK_CN.md)
 
-## Using Java SDK
-
-**Outline:**  
+## Outline:
   
   
-* [Managing Account](#Managing Account)
-    * [Convert old address to new address](#Convert old address to new address)
-    * [Managing using a Private Key (without a wallet)](#Managing using a Private Key (without a wallet))
-        * [Creating Accounts Randomly](#Creating Accounts Randomly)
-        * [Creating Accounts based on Private Keys](#Creating Accounts based on Private Keys)
-    * [Managing with a Wallet](#Managing with a Wallet)
-* [Generating a Batch of Accounts in Your Wallet](#Generating a Batch of Accounts in Your Wallet)
-* [Transferring ZPT and Gala](#Transferring ZPT and Gala)
-    * [1. Initialization](#1-Initialization)
-    * [2. Information Query](#2-Information Query)
-        * [Query Zeepin\Gala Balance](#Query Zeepin\Gala Balance)
-        * [Query whether the transaction is still in the transaction pool](#Query whether the transaction is still in the transaction pool)
-        * [Query whether the transaction has been successful](#Query whether the transaction has been successful)
-        * [The List of Chain Interaction Interfaces](#The List of Chain Interaction Interfaces)
-    * [3. Making Zeepin Transactions](#3-Making Zeepin Transactions)
-        * [Creating Transfers and Sending them ](#Creating Transfers and Sending them )
-        * [Multiple Signatures](#Multiple Signatures)
-        * [From One to Multiple or from Multiple to One](#From One to Multiple or from Multiple to One)
-    * [4. Gala Transfers](#4-Gala Transfers)
-        * [The Gala transfer interface is similar to ZPT](#The Gala transfer interface is similar to ZPT)
-        * [Withdrawing Gala](#Withdrawing Gala)
+* [Managing Account](#managing-account)
+    * [Convert old address to new address](#convert-old-address-to-new-address)
+    * [Managing using a Private Key (without a wallet)](#managing-using-a-private-key-without-a-wallet)
+        * [Creating Accounts Randomly](#creating-accounts-randomly)
+        * [Creating Accounts based on Private Keys](#creating-accounts-based-on-private-keys)
+    * [Managing with a Wallet](#managing-with-a-wallet)
+* [Generating Addresses](#generating-addresses)
+* [Transferring ZPT and Gala](#transferring-zpt-and-gala)
+    * [1. Initialization](#1-initialization)
+    * [2. Information Query](#2-information-query)
+        * [Query Zeepin\Gala Balance](#query-zeepingala-balance)
+        * [Query whether the transaction is still in the transaction pool](#query-whether-the-transaction-is-still-in-the-transaction-pool)
+        * [Query whether the transaction has been successful](#query-whether-the-transaction-has-been-successful)
+        * [The List of Chain Interaction Interfaces](#the-list-of-chain-interaction-interfaces)
+    * [3. Making Zeepin Transactions](#3-making-zeepin-transactions)
+        * [Creating Transfers and Sending them ](#creating-transfers-and-sending-them)
+        * [Multiple Signatures](#multiple-signatures)
+        * [From One to Multiple or from Multiple to One](#from-one-to-multiple-or-from-multiple-to-one)
+    * [4. Gala Transfers](#4-gala-transfers)
+        * [The Gala transfer interface is similar to ZPT](#the-gala-transfer-interface-is-similar-to-zpt)
+        * [Withdrawing Gala](#withdrawing-gala)
   
   
 
@@ -111,7 +110,7 @@ Address recvAddr = Address.addressFromMultiPubKeys(2, acct1.serializePublicKey()
 
 ### Transferring ZPT and Gala
 
-**Before transferring on the MainNet, please set gaslimit to 20000, gasprice to 1.
+**Before transferring on the MainNet, please set gaslimit to 20000, gasprice to 1.**
 
 
 #### 1. Initialization
