@@ -8,11 +8,11 @@
 [Zeepin Chain Whitepaper EN](https://www.zeepin.io/pdfs/Zeepin%20Chain%20Tech%20WP%20V1.0%20EN.pdf) | [Zeepin Chain Whitepaper CH](https://www.zeepin.io/pdfs/Zeepin%20Chain_WP%20CN%20V1.0.pdf)
 
 
-欢迎查看zeepin的源码库!
+欢迎查看Zeepin的源码库!
 
 Zeepin Chain是一条去中心化的文创及娱乐资产公链，通过区块链构建标准化基础设施，为创意人群提供高效工作的解决方案，帮助创意组织提高创新效率，促进文创产业开放透明、公平高效的价值流通。同时Zeepin Chain还将打造区块链数字娱乐资产发行平台，为全球文娱资产代币化提供区块链技术支持及落地场景的建设，建立一个自由的交易市场和兑换平台。
 
-zeepin致力于为创意从业者提供一个可自由配置、易扩展、高性能的区块链底层基础设施，让部署区块链环境及开发dApp变得更加的简单。zeepin v0.1.0 版本根据文创行业需求基于ONT1.0核心框架进行定制开发，在此对ONT社区表示衷心感谢。  
+Zeepin致力于为创意从业者提供一个可自由配置、易扩展、高性能的区块链底层基础设施，让部署区块链环境及开发dApp变得更加的简单。Zeepin v0.1.0 版本根据文创行业需求基于ONT1.0核心框架进行定制开发，在此对ONT社区表示衷心感谢。  
 
 Zeepin Chain采用GBFT－POS共识机制（星际共识），提供具备图灵完备性的虚拟机(NEOVM)作为智能合约的执行环境，为应用架构提供自定义脚步控制支持。支持Java、C#、Python、Javascript等编程语言开发的脚本，虚拟机可通过api与链进行集成交互。
 
@@ -28,7 +28,7 @@ Zeepin Chain采用GBFT－POS共识机制（星际共识），提供具备图灵�
   
 ## 目录
 
-* [获取zeepin](#获取zeepin)
+* [获取Zeepin](#获取Zeepin)
     * [从release获取](#从release获取)
 * [服务器部署](#服务器部署)
     * [选择网络](#选择网络)
@@ -54,7 +54,7 @@ Zeepin Chain采用GBFT－POS共识机制（星际共识），提供具备图灵�
 
 ## 服务器部署
 ### 选择网络
-zeepin的运行支持以下方式
+Zeepin的运行支持以下方式
 
 * TestNet同步节点部署
 * MainNet同步节点部署
@@ -64,7 +64,7 @@ zeepin的运行支持以下方式
 
 #### TestNet节点部署
 
-运行zeepin
+运行Zeepin
 
    ```
 	./zeepin --networkid 2
@@ -72,14 +72,14 @@ zeepin的运行支持以下方式
 
 #### MainNet节点部署
 
-运行zeepin
+运行Zeepin
 
    ```
 	./zeepin
    ```
 
 
-#### 创建zeepin钱包
+#### 创建Zeepin钱包
 
 
    ```
@@ -102,7 +102,7 @@ Public key: 02c7fed64a315c664034bae1257f45c9fdf8c24033f0904ce7b47b0090232323
 Signature scheme: SHA256withECDSA
 
 ```
-请务必保存好钱包密码和私钥,zeepin钱包统一为Z开头。
+请务必保存好钱包密码和私钥,Zeepin钱包统一为Z开头。
 
    
 ### ZPT转账调用示例

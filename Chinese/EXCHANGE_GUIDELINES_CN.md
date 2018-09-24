@@ -509,7 +509,7 @@ Signature scheme: SHA256withECDSA
 
 在Zeepin经济模型中，ZPT总发行量恒定为10亿，Gala总量恒定为1000亿，800亿处于锁定状态，ZPT和Gala的精度都是4，对应分发的Gala总量为200亿，其中20亿已经空投至ZPT持有者，其余180亿将逐步解绑至ZPT持有者（最小解绑单位为1个ZPT）。
 当一笔ZPT交易在区块链网络中产生，该笔交易将触发Gala解绑，此部分Gala将由智能合约自动转账至发起人与接收人，此时ZPT持有者能获得的Gala奖励将与持有量成正比。
-如果特定地址的交易一直不被触发，该地址的Gala将持续累积；当下一笔交易触发时，一次性发放所有Gala，该Gala数量可以在Zeepin钱包应用ZeeWallet中通过Claim查询。
+如果特定地址的交易一直不被触发，该地址的Gala将持续累积；当下一笔交易触发时，一次性发放所有Gala，该Gala数量可以在Zeepin钱包应用ZeeWallet中通过Claim挖取。
 
 
 ### 计算可提取的Gala总量
@@ -519,7 +519,7 @@ Signature scheme: SHA256withECDSA
 按照该解绑比例，第一年与第二年将会解绑31.18%的Gala，而前4年这一比例将增加至50.46%，大幅度增加了早期持有者的收益。
 假设一名用户持有10000个ZPT，在第一年他将获得76.9 Gala/天，2338.9 Gala/月，28067.0 Gala/年。
 
-「详细解绑规则请参照zeepin经济模型」
+[详细解绑规则请参照Zeepin经济模型](https://zeescan.io/tool/documents/economicModel)
 
 
 ### 给用户分发Gala
