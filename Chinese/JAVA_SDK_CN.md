@@ -4,7 +4,7 @@
 
 [English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/JAVA_SDK_CN.md)
 
-## 本文大纲：  
+## 目录
   
   
 * [账号管理](#账号管理)
