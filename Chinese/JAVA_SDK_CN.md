@@ -2,9 +2,9 @@
 <h4 align="center">Version 1.0 </h4>
 
 
-## Java SDK的使用
+[English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/JAVA_SDK_CN.md)
 
-**本文大纲：**  
+## 本文大纲：  
   
   
 * [账号管理](#账号管理)
@@ -111,7 +111,7 @@ Address recvAddr = Address.addressFromMultiPubKeys(2, acct1.serializePublicKey()
 
 ### ZPT和Gala转账
 
-**对于在主网转账，请将gaslimit 设为20000，gasprice设为1
+**对于在主网转账，请将gaslimit 设为20000，gasprice设为1。**
 
 
 #### 1. 初始化
