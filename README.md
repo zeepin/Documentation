@@ -28,25 +28,25 @@ Zeepin is committed to creating a blockchain infrastructure with free configurat
   
 ## Outline:
 
-* [Obtaining Zeepin](#Obtaining Zeepin)
-    * [Obtaining from release](#Obtaining from release)
-* [Server Deployment](#Server Deployment)
-    * [Choosing a Net](#Choosing a Net)
-        * [Deploying TestNet Synchronized Nodes](#Deploying TestNet Synchronized Nodes)
-        * [Deploying MainNet Synchronized Nodes](#Deploying MainNet Synchronized Nodes)
-        * [Deploying MainNet Campaigning Nodes](#Deploying MainNet Campaigning Nodes)
-    * [Creating Zeepin Wallets](#Creating Zeepin Wallets)
-    * [An Examples of ZPT Transfers and Allocation](#An Examples of ZPT Transfers and Allocation)
-    * [Query Transaction Results TxHash](#Query Transaction Results TxHash)
-    * [An Example on Querying Account Balance](#An Example on Querying Account Balance)
-    * [An Example on Querying Unbound Gala](#An Example on Querying Unbound Gala)
-    * [An Example on Withdrawing Unbound Gala](#An Example on Withdrawing Unbound Gala)
-    * [An Example on Querying Current Block Height](#An Example on Querying Current Block Height)
-    * [An Example on Querying Block Information](#An Example on Querying Block Information)
-* [Official Community](#Official Community)
-    * [Official Website](#Official Website)
-    * [Telegram](#Telegram)
-* [License](#License)
+* [Obtaining Zeepin](#obtaining-zeepin)
+    * [Obtaining from release](#obtaining-from-release)
+* [Server Deployment](#server-deployment)
+    * [Choosing a Net](#choosing-a-net)
+        * [Deploying TestNet Synchronized Nodes](#deploying-testnet-synchronized-nodes)
+        * [Deploying MainNet Synchronized Nodes](#deploying-mainnet-synchronized-nodes)
+        * [Deploying MainNet Campaigning Nodes](#deploying-mainnet-campaigning-nodes)
+    * [Creating Zeepin Wallets](#creating-zeepin-wallets)
+    * [An Examples of ZPT Transfers and Allocation](#an-examples-of-zpt-transfers-and-allocation)
+    * [Query Transaction Results TxHash](#query-transaction-results-txhash)
+    * [An Example on Querying Account Balance](#an-example-on-querying-account-balance)
+    * [An Example on Querying Unbound Gala](#an-example-on-querying-unbound-gala)
+    * [An Example on Withdrawing Unbound Gala](#an-example-on-withdrawing-unbound-gala)
+    * [An Example on Querying Current Block Height](#an-example-on-querying-current-block-height)
+    * [An Example on Querying Block Information](#an-example-on-querying-block-information)
+* [Official Community](#official-community)
+    * [Official Website](#official-website)
+    * [Telegram](#telegram)
+* [License](#license)
 
 
 ## Obtaining Zeepin
@@ -78,6 +78,8 @@ Run zeepin
    ```
 	./zeepin
    ```
+
+#### Deploying MainNet Campaigning Nodes
 
 
 #### Creating Zeepin Wallets
@@ -204,7 +206,7 @@ Query Results:
 ./zeepin info curblockheight
 ```
 
-An Example on Querying Block Information:
+### An Example on Querying Block Information:
 
 ```
 CurrentBlockHeight:1693
