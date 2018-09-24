@@ -3,7 +3,7 @@
 
 [English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/JAVA_SDK_CN.md)
 
-## Outline:
+## Outline
   
   
 * [Managing Account](#managing-account)
