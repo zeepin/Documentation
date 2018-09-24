@@ -1,7 +1,7 @@
 <h1 align="center">EXCHANGE_GUIDELINES_CN</h1>
 <h4 align="center">Version 1.0 </h4>
 
-[English](EXCHANGE_GUIDELINES_EN.md) | [中文](EXCHANGE_GUIDELINES_CN.md) | [한글](EXCHANGE_GUIDELINES_KO.md)
+[English](/English/EXCHANGE_GUIDELINES_EN.md) | [中文](/Chinese/EXCHANGE_GUIDELINES_CN.md) | [한글](EXCHANGE_GUIDELINES_KO.md)
 
 
 **ZEEPIN区块链资产分为：**
@@ -429,7 +429,7 @@ Signature scheme: SHA256withECDSA
    1. gaslimit>=实际花费，交易将执行成功，并退回未消费的gas；
    2. gaslimt<实际所需花费，交易将执行失败，并消费掉VM已执行花费的gas;  
    
-   zeepin网络中gaslimit最小值为20000（4位精度，即2个Gala），少于这个数量交易将无法被打包。
+   **zeepin网络中gaslimit最小值为20000（4位精度，即2个Gala），少于这个数量交易将无法被打包。**
    
 
    --asset  
@@ -444,7 +444,7 @@ Signature scheme: SHA256withECDSA
    --amount   
    amount	参数指定转账金额。
    
-   注意：由于ZPT和Gala的精度是4，如果输入超出4位小数，超出部分的数值会被丢弃；
+   **注意：由于ZPT和Gala的精度是4，如果输入超出4位小数，超出部分的数值会被丢弃；**
    
    
    确认交易结果：
