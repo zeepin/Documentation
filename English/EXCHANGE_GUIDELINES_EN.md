@@ -1,7 +1,7 @@
 <h1 align="center">EXCHANGE_GUIDELINES_EN</h1>
 <h4 align="center">Version 1.0 </h4>
 
-[English](/English/EXCHANGE_GUIDELINES.md) | [中文](/Chinese/EXCHANGE_GUIDELINES_CN.md) | [한글](EXCHANGE_GUIDELINES_KO.md)
+[English](/English/EXCHANGE_GUIDELINES_EN.md) | [中文](/Chinese/EXCHANGE_GUIDELINES_CN.md) | [한글](EXCHANGE_GUIDELINES_KO.md)
 
 
 **ZEEPIN Blockchain assets consist of:**
@@ -55,7 +55,7 @@ When the exchange is docked to the ZEEPIN Blockchain, it mainly deals with these
 
 ### Obtaining Zeepin
 #### Obtaining from Release
-- Obtaining from the[Download Page](https://github.com/zeepin/zeepinChain/releases)
+- Obtaining from the [Download Page](https://github.com/zeepin/zeepinChain/releases)
 
 ### Server Deployment
 #### MainNet Synchronized Node Deployment
@@ -393,11 +393,11 @@ When there is recharge transaction, the exchange modifies the user balance in th
 
 When a user withdraws, the exchange needs to complete the following operations:
 
-1. Record user withdrawals in the database and modify the user account balance.
-2. Use the CLI command to transfer to the user withdraw address:
+#### 1. Record user withdrawals in the database and modify the user account balance.
+#### 2. Use the CLI command to transfer to the user withdraw address:
 
    ```
-	   $ ./zeepin asset transfer --asset gala --from ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz --to ZTSPC1PEhXHZZDTFtvRDjoKSZrgYboBwDM --amount 100
+	$ ./zeepin asset transfer --asset gala --from ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz --to ZTSPC1PEhXHZZDTFtvRDjoKSZrgYboBwDM --amount 100
 	Password:
 	Transfer GALA
 	  From:ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz
@@ -427,7 +427,7 @@ When a user withdraws, the exchange needs to complete the following operations:
    1. gaslimit>=actual cost, the transaction will be executed successfully, and the unconsumed gas will be returned;
    2. gaslimt<actual cost, The transaction will fail to execute, and consume the gas that the VM has executed.
    
-   The minimum gaslimit in the zeepin network is 20000 (4-bit precision, ie 2 Gallas), and less than this amount of transactions will not be packaged.
+   **The minimum gaslimit in the zeepin network is 20000 (4-bit precision, ie 2 Gallas), and less than this amount of transactions will not be packaged.**
    
 
    --asset  
@@ -442,14 +442,14 @@ When a user withdraws, the exchange needs to complete the following operations:
    --amount   
    amount	The amount parameter specifies the transfer amount
    
-   Note: Both ZPT and Gala have a 4-decimal precision. If the input exceeds 4 decimal places, the excess value will be discarded;
+   **Note: Both ZPT and Gala have a 4-decimal precision. If the input exceeds 4 decimal places, the excess value will be discarded;**
    
    
    Confirm the transaction result:
 
    - Use the returned transaction hash to directly query and filter the record of the exchange address to the user:
 
-     ```
+   ```
 	$ ./zeepin info status 00d9336a5e83754815fdd609f7ecce31135428d4fcc40469082658cfdb8b62c4
 	Transaction states:
 	{
@@ -478,26 +478,23 @@ When a user withdraws, the exchange needs to complete the following operations:
 	   ]
 	}
 
-     ```
+   ```
 
 
-3. Extract the transaction ID record from the returned Json format transaction details in the database
+#### 3. Extract the transaction ID record from the returned Json format transaction details in the database
 
-4. After the block is confirmed, the withdrawal record will be marked as successful.
+#### 4. After the block is confirmed, the withdrawal record will be marked as successful.
 
     Similar to the monitoring of the blockchain during recharge, the same is true. If a transaction ID in the block is found to be equal to the transaction ID in the withdrawal record during the monitoring, the transaction has been confirmed, that is, the withdrawal is successful.
 
-5. If the transaction has not been confirmed, that is, the corresponding event log cannot be queried by the transaction hash, then
+#### 5. If the transaction has not been confirmed, that is, the corresponding event log cannot be queried by the transaction hash, then
 
     - Query whether the transaction is in the transaction pool through the rpc/SDK interface (refer to Java Sdk). If it is, wait for the consensus node to pack the block and then query.
 
     - If not, the transaction can be considered to have failed and the transfer operation needs to be re-executed.
 
     - If the transaction has not been packaged for a long time, it may be due to the gasprice setting being too low.
-
- 
-
-
+    
 
 ## 4.Gala Distributed to Users
 
