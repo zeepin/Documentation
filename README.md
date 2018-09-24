@@ -51,7 +51,7 @@ Zeepin is committed to creating a blockchain infrastructure with free configurat
 
 ## Obtaining Zeepin
 ### Obtaining from release
-- Obtain from the[Download Page](https://github.com/zeepin/zeepinChain/releases)
+- Obtain from the [Download Page](https://github.com/zeepin/zeepinChain/releases)
 
 ## Server Deployment
 ### Choosing a Net
@@ -165,7 +165,7 @@ Transaction states:
 Number as TxHash query results should be divided by 10000, because both ZPT and Gala are with 4 decimal places.
 
 
-### 查询账户余额示例
+### An Example on Querying Account Balance
 
 ```shell
 ./zeepin asset balance ZJohWxMxiMWHczSCV5ZUybZEf5jh9VQE5G
