@@ -744,19 +744,4 @@ Governance(Consensus) | 0700000000000000000000000000000000000000
   
 - ***NEP5上的 ZPT 怎么和主网的 ZPT 兑换？***
 
-  NEP5上的私钥通过SDK或ZeeWallet激活，获得新的Zeepin钱包地址。  
-  Gala同样按此处理  
-  
-  <br/>
-
-- 
-- 
-- 
-- 
-
-
-
-
-
-
-
+  NEP5上的私钥通过SDK或ZeeWallet激活，获得新的Zeepin钱包地址，Gala同样按此处理。  
