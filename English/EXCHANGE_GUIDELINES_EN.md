@@ -1,7 +1,7 @@
 <h1 align="center">EXCHANGE_GUIDELINES_EN</h1>
 <h4 align="center">Version 1.0 </h4>
 
-[English](EXCHANGE_GUIDELINES.md) | [中文](EXCHANGE_GUIDELINES_CN.md) | [한글](EXCHANGE_GUIDELINES_KO.md)
+[English](/English/EXCHANGE_GUIDELINES.md) | [中文](/Chinese/EXCHANGE_GUIDELINES_CN.md) | [한글](EXCHANGE_GUIDELINES_KO.md)
 
 
 **ZEEPIN Blockchain assets consist of:**
@@ -17,35 +17,35 @@
 When the exchange is docked to the ZEEPIN Blockchain, it mainly deals with these two types of assets by enabling recharge, withdrawal, transaction inquiry, account creation and other operations. 
 
 
-**Outline:**  
+## Outline
 
-* [1. ZEEPIN Synchronized Node Deployment](#1ZEEPIN Synchronized Node Deployment)
-	* [Obtaining Zeepin](#Obtaining Zeepin)
-		* [Obtaining from Release](#Obtaining from Release)
-	* [Server Deployment](#Server Deployment)
-		* [MainNet Synchronized Node Deployment](#MainNet Synchronized Node Deployment)
-* [2. Using ZEEPIN CLI Client](#2Using ZEEPIN CLI Client)
-	* [Security Policy](#Security Policy)
-	* [Creating ZEEPIN Wallets](#Creating ZEEPIN Wallets)
-	* [Generating Recharging Addresses for Exchange Users](#Generating Recharging Addresses for Exchange Users)
-		* [Two Ways of Generating Recharging Addresses](#Two Ways of Generating Recharging Addresses)
-* [3. The Exchange Connected with Asset Exchanges](#3The Exchange Connected with Asset Exchanges)
-	* [Docking Programs to be Developed](#Docking Programs to be Developed)
-	* [User Recharge](#User Recharge)
-		* [Status Reading via “State”](#Status Reading via “State”)
-		* [Parsing Arrays via Notify](#Parsing Arrays via Notify)
-	* [Recharge Record](#Recharge Record)
-	* [Handling user withdrawal requests](#Handling user withdrawal requests)
-* [4. Gala Distributed to Users](#4Gala Distributed to Users)
-	* [What is Gala](#What is Gala)
-	* [Calculating Withdrawable Gala Amount](#Calculating Withdrawable Gala Amount)
-	* [Distributing Gala to users](#Distributing Gala to users)
-	* [Gala distribution formula](#Gala distribution formula)
-	* [Users withdrawing Gala](#Users withdrawing Gala)  
+* [1. ZEEPIN Synchronized Node Deployment](#1zeepin-synchronized-node-deployment)
+	* [Obtaining Zeepin](#obtaining-zeepin)
+		* [Obtaining from Release](#obtaining-from-release)
+	* [Server Deployment](#server-deployment)
+		* [MainNet Synchronized Node Deployment](#mainnet-synchronized-node-deployment)
+* [2. Using ZEEPIN CLI Client](#2using-zeepin-cli-client)
+	* [Security Policy](#security-policy)
+	* [Creating ZEEPIN Wallets](#creating-zeepin-wallets)
+	* [Generating Recharging Addresses for Exchange Users](#generating-recharging-addresses-for-exchange-users)
+		* [Two Ways of Generating Recharging Addresses](#two-ways-of-generating-recharging-addresses)
+* [3. The Exchange Connected with Asset Exchanges](#3the-exchange-connected-with-asset-exchanges)
+	* [Docking Programs to be Developed](#docking-programs-to-be-developed)
+	* [User Recharge](#user-recharge)
+		* [Status Reading via “State”](#status-reading-via-state)
+		* [Parsing Arrays via Notify](#parsing-arrays-via-notify)
+	* [Recharge Record](#recharge-record)
+	* [Processing User Withdraw Requests](#processing-user-withdraw-requests)
+* [4. Gala Distributed to Users](#4gala-distributed-to-users)
+	* [What is Gala](#what-is-gala)
+	* [Calculating Withdrawable Gala Amount](#calculating-withdrawable-gala-amount)
+	* [Distributing Gala to users](#distributing-gala-to-users)
+	* [Gala distribution formula](#gala-distribution-formula)
+	* [Users withdrawing Gala](#users-withdrawing-gala)  
 	
-* [5. Appendix Native Contract Addresses](#Appendix Native Contract Addresses)
+* [5. Appendix Native Contract Addresses](#appendix-native-contract-addresses)
 
-* [6. FAQ (will be updated continuously)](#FAQ (will be updated continuously))    
+* [6. FAQ (will be updated continuously)](#faq-will-be-updated-continuously)    
   
   
 
@@ -499,7 +499,7 @@ When a user withdraws, the exchange needs to complete the following operations:
 
 
 
-## 4. Gala Distributed to Users
+## 4.Gala Distributed to Users
 
 The exchange can choose whether to distribute the Gala to the user, Gala is used to pay for additional services such as transfer transactions, contract deployment, billing fees and networks for the zeepin blockchain.
 
@@ -742,11 +742,3 @@ Governance(Consensus) | 0700000000000000000000000000000000000000
 - ***How to convert ZPT from NEP 5 to ZPT on the MainNet?***
 
   Private Keys on NEP5 can be activated via SDK or ZeeWallet, and then a new Zeepin Wallet address will be generated. The same applies to Gala.
-  
-  
-
-
-
-
-
-
