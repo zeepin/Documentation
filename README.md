@@ -26,7 +26,7 @@ Zeepin is committed to creating a blockchain infrastructure with free configurat
 > * [BlockChain Explorer https://zeescan.io](https://zeescan.io)
   
   
-## Outline:
+## Outline
 
 * [Obtaining Zeepin](#obtaining-zeepin)
     * [Obtaining from release](#obtaining-from-release)
