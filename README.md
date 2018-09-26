@@ -10,7 +10,7 @@
 
 Welcome to see the source repository of Zeepin!
 
-Zeepin Chain is a decentralized chain for cultural and entertainment assets. By providing a standardized infrastructure through blockchain technology, Zeepin Chain offers efficient work solutions to content creators, helps creative organizations improve innovation efficiency, and promotes open, transparent, fair, and effective value circulation in creative industries. Efficient.
+Zeepin Chain is a decentralized chain for cultural and entertainment assets. By providing a standardized infrastructure through blockchain technology, Zeepin Chain offers efficient work solutions to content creators, helps creative organizations improve innovation efficiency, and promotes open, transparent, fair, and effective value circulation in creative industries.
 
 Meanwhile, Zeepin Chain provides a blockchain digital entertainment asset issuance platform, blockchain technical support, and construct adoption scenarios in order to tokenize global creative and cultural assets. As an industry-based chain, Zeepin Chain public chain has the capability to integrate third-party entertainment assets and systems to create a free trading market and exchange platform.
 
