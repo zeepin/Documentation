@@ -4,12 +4,12 @@ GCP-30 : [English](/English/GCP30_EN.md) | [中文](/Chinese/GCP30_CN.md)
 
 ## Directory
    
-* [Simple Summary](#SimpleSummary)
+* [Simple Summary](#Simple-Summary)
 * [Abstract](#Abstract)
 * [Motivation](#Motivation)
 * [Specification](#Specification)
-    * [Specific analysis](#Specificanalysis)
-    * [Implementation interface](#Implementationinterface)
+    * [Specific analysis](#Specific-analysis)
+    * [Implementation interface](#Implementation-interface)
     * [Precautions](#Precautions)
 
 
