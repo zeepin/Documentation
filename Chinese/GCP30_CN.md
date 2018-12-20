@@ -1,8 +1,10 @@
-<h1 align="center">GCP30</h1>
+<h1 align="center">GCP30合约标准</h1>
+
+[English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/GCP30_CN.md)
+
 
 ## 目录
-  
-  
+   
 * [摘要](#摘要)
 * [概念](#概念)
 * [目标](#目标)
