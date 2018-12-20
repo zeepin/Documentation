@@ -13,8 +13,6 @@ GCP-30 : [English](/English/GCP30_EN.md) | [中文](/Chinese/GCP30_CN.md)
     * [Precautions](#Precautions)
 
 
-
-
 ### Simple Summary
 GCP-30(Galaxy Consensus Proposal) is a standard interface for non-fungible tokens, also similar with ERC-721.
 
