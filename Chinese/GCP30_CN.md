@@ -1,6 +1,6 @@
 <h1 align="center">GCP-30合约标准</h1>
 
-GCP-30 : [English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/GCP30_CN.md)
+GCP-30 : [English](/English/GCP30_EN.md) | [中文](/Chinese/GCP30_CN.md)
 
 
 ## 目录
