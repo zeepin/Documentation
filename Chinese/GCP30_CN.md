@@ -1,6 +1,6 @@
-<h1 align="center">GCP30合约标准</h1>
+<h1 align="center">GCP-30合约标准</h1>
 
-GCP30 : [English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/GCP30_CN.md)
+GCP-30 : [English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/GCP30_CN.md)
 
 
 ## 目录
@@ -15,7 +15,7 @@ GCP30 : [English](/English/JAVA_SDK_EN.md) | [中文](/Chinese/GCP30_CN.md)
 
 
 ### 摘要
-GCP30是智品区块链用于非同质资产(Non-Fungible Token，以下简称NFT)的协议，对应以太坊的ERC721协议。
+GCP-30是智品区块链用于非同质资产(Non-Fungible Token，以下简称NFT)的协议，对应以太坊的ERC721协议。
 
 
 ### 概念
@@ -30,12 +30,12 @@ GCP30是智品区块链用于非同质资产(Non-Fungible Token，以下简称NF
 一般来说，所有房屋都是独特的，没有两只小猫是相同的。NFT是可区分的，您必须分别跟踪每个NFT的所有权。
 
 ### 目标
-标准协议允许钱包/经纪人/拍卖应用程序与WASM上的任何NFT一起使用，我们提供GCP30智能合约模版以及跟踪任意大量NFT的合约。
+标准协议允许钱包/经纪人/拍卖应用程序与WASM上的任何NFT一起使用，我们提供GCP-30智能合约模版以及跟踪任意大量NFT的合约。
 
 ### 规格
-***每个符合GCP30标准的合同都必须实施GCP30接口***，以下是用C语言基于WASM编写的GCP30标准智能合约，此环境中参数的传递以及返回的值都以 char 的形式返回，所以我们在自己编写合约的时候需要注意数据类型的转换。
+***每个符合GCP-30标准的合同都必须实施GCP-30接口***，以下是用C语言基于WASM编写的GCP-30标准智能合约，此环境中参数的传递以及返回的值都以 char 的形式返回，所以我们在自己编写合约的时候需要注意数据类型的转换。
 
-话不多说，我们直接开始GCP30的实现吧，首先先认识下所需要用到的主要函数接口：
+话不多说，我们直接开始GCP-30的实现吧，首先先认识下所需要用到的主要函数接口：
 ```c
 char *OwnerOf(char *TokenID)
 //返回tokenId代币持有者的地址
