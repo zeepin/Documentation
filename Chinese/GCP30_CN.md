@@ -50,7 +50,7 @@ char *Approve(char *from, char *to, char *TokenID)
 //授予地址 to具有 tokenId的控制权，方法成功后需触发Approval 事件
 
 char *ApproverOf(char *TokenID)
-//获得 tokenId授权的地址
+//返回 tokenId授权的地址
 
 char *ApprovedFor(char *address, char *TokenID)
 //查询地址是否是另一个地址名下的tokenID的授权地址
@@ -64,7 +64,7 @@ char *TransferFromApproval(char *from, char *to, char *approval, char *TokenID�
 ```
 
 #### 具体分析
-可在https://wasdk.github.io/WasmFiddle 网页上直接在线编辑，随时点击Build来检查有没有存在编辑语法错误等。
+可在https://wasdk.github.io/WasmFiddle 网页上直接在线编辑，随时点击Build来检查有没有存在语法编辑错误等。
 
 ##### init
 初始化NFTs代币，起始设置为0。示例代码如下：
@@ -93,7 +93,7 @@ char *TotalSupply()
     {
         return "you need init!";
     }
-    return ZPT_Storage_Get("totalSupply");  //根据“totalSupply”的键key，返回总数量的值value
+    return ZPT_Storage_Get("totalSupply");  //根据“totalSupply”的键key，返回总数的值value
 }
 ```
 
@@ -115,7 +115,7 @@ char *Create(char *TokenID, char *address){
 }
 
 ```
-* 然后来看下函数 **Transfer()** 的内部实现：
+* 然后看下函数 **Transfer()** 的内部实现：
 
 具体实现的内容分为两部分
 
@@ -239,7 +239,7 @@ char *Approve(char *from, char *to, char *TokenID)
 ```
 然后看下函数 **ApproveInternal()** 做了什么：
 
-这边将TokenID增加个ap.前缀，然后再和地址to一起存储。
+这边将TokenID增加个ap.前缀，拼接成一个newTokenID，然后再和地址to一起存储。
 
 ```c
 void ApproveInternal(char *to, char *TokenID)
@@ -257,7 +257,7 @@ void ApproveInternal(char *to, char *TokenID)
 这里所做的处理：
 
 * 将TokenID增加前缀ap.；
-* 判断增加了前缀后的TokenID是否有相应地址，如果为空，则输入错误；
+* 判断增加了前缀后的newTokenID是否有相对应的地址，如果为空，则输入错误；
 * 获取地址
 
 ```c
@@ -551,7 +551,7 @@ char *invoke(char *method, char *args)
     }  
 }
 ```
-到此具体的示例代码分析结束了，一切编写完成后就可以点击Build，没有错误后便可以点击页面上Wasm进行下载，之后便可以用此文件来部署该智能合约了。
+到此具体的示例代码分析结束了，当编写完成后就可以点击Build，如果没有错误后便可以点击页面上Wasm进行下载文件，之后便可以用此文件来部署该智能合约了。
 
 **相信看通过以上GCP30的示例，你已基本具备了使用c语言基于wasm编写出出色的合约代码了的能力！**
 
