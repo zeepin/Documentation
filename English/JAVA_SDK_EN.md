@@ -34,7 +34,7 @@
 
 #### Convert old address to new address：
 ```java
-String oldAddress = "AVBokCnLS9NxUjeXTdL8BMsgN41bwtK89J";//old address starts with "A"
+String oldAddress = "ZVBokCnLS9NxUjeXTdL8BMsgN41bwtK89J";//old address starts with "A"
 String newAddress = ConvertAddress.convertAddress(oldAddress);//new address starts with "Z"
 ```
 
