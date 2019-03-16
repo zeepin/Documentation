@@ -12,7 +12,7 @@ cd /data/gopath/mainnet
 ```
 curl  <https://github.com/zeepin/ZeepinChain/releases>  | sh`
 ```
-   或者可以自行在这里下载：<https://github.com/zeepin/ZeepinChain/releasesX/releases> 
+   或者可以自行在这里下载：<https://github.com/zeepin/ZeepinChain/releases> 
 
 3、把生成的钱包文件 wallet.dat拷贝到zeepin二进制目录下，执行命令 ./zeepin account list -v  记录Public key和钱包地址。注意：不能用同一个钱包开启2条链。
 
