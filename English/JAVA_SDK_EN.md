@@ -207,7 +207,7 @@ response:
         "GasConsumed": 0,
         "Notify": [
             {
-                "CzeepinractAddress": "0100000000000000000000000000000000000000",
+                "ContractAddress": "0100000000000000000000000000000000000000",
                 "States": [
                     "transfer",
                     "ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz",
@@ -238,7 +238,7 @@ response:
         "GasConsumed": 0,
         "Notify": [
             {
-                "CzeepinractAddress": "0100000000000000000000000000000000000000",
+                "ContractAddress": "0100000000000000000000000000000000000000",
                 "States": [
                     "transfer",
                     "ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz",
