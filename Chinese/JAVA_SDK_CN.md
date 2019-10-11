@@ -263,7 +263,7 @@ response:
         "GasConsumed": 0,
         "Notify": [
             {
-                "CzeepinractAddress": "0100000000000000000000000000000000000000",
+                "ContractAddress": "0100000000000000000000000000000000000000",
                 "States": [
                     "transfer",
                     "ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz",
@@ -295,7 +295,7 @@ response:
         "GasConsumed": 0,
         "Notify": [
             {
-                "CzeepinractAddress": "0100000000000000000000000000000000000000",
+                "ContractAddress": "0100000000000000000000000000000000000000",
                 "States": [
                     "transfer",
                     "ZSviKhEgka2fZhhoUjv2trnSMtjUhm3fyz",
@@ -344,9 +344,9 @@ response:
 | 5    |         zptSdk.getConnect().getBlock("txhash")         |   根据块的Hash查询块  |
 | 6    |          zptSdk.getConnect().getBlockHeight()          |     查询当前块高     |
 | 7    |      zptSdk.getConnect().getTransaction("txhash")      | 根据交易Hash查询交易信息 |
-| 8    | zptSdk.getConnect().getStorage("czeepinractaddress", key) |   查询智能合约存储   |
+| 8    | zptSdk.getConnect().getStorage("ContractAddress", key) |   查询智能合约存储   |
 | 9   |       zptSdk.getConnect().getBalance("address")        |       查询余额       |
-| 10   | zptSdk.getConnect().getCzeepinractJson("czeepinractaddress") |     查询智能合约     |
+| 10   | zptSdk.getConnect().getCzeepinractJson("ContractAddress") |     查询智能合约     |
 | 11   |       zptSdk.getConnect().getSmartCodeEvent(59)        |   查询智能合约事件   |
 | 12   |    zptSdk.getConnect().getSmartCodeEvent("txhash")     |   查询智能合约事件   |
 | 13   |  zptSdk.getConnect().getBlockHeightByTxHash("txhash")  |   查询交易所在高度   |

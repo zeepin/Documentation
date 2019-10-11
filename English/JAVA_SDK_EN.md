@@ -288,9 +288,9 @@ Filtering the recipient address through the recharge address that the exchange g
 | 6    |         zeepinSdk.getConnect().getBlock("txhash")         |        Query Block Info        |
 | 7    |          zeepinSdk.getConnect().getBlockHeight()          |     Query Current Block Height     |
 | 8    |      zeepinSdk.getConnect().getTransaction("txhash")      |       Query Transaction Info       |
-| 9    | zeepinSdk.getConnect().getStorage("zeepinConractAddress", key) |   Query Smart Contract Storage   |
+| 9    | zeepinSdk.getConnect().getStorage("ContractAddress", key) |   Query Smart Contract Storage   |
 | 10   |       zeepinSdk.getConnect().getBalance("address")        |       Query Balance Info       |
-| 11   | zeepinSdk.getConnect().getContractJson("czeepinractaddress") |     Query Smart Contract Info     |
+| 11   | zeepinSdk.getConnect().getContractJson("ContractAddress") |     Query Smart Contract Info     |
 | 12   |       zeepinSdk.getConnect().getSmartCodeEvent(59)        |   Query Smart Contract Events   |
 | 13   |    zeepinSdk.getConnect().getSmartCodeEvent("txhash")     |   Query Smart Contract Events   |
 | 14   |  zeepinSdk.getConnect().getBlockHeightByTxHash("txhash")  |   Query Block Height by Transaction Hash   |
